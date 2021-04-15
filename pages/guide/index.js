@@ -42,7 +42,7 @@ Page({
         data: {
           action: 'device.virtualAdd',
           params: {
-            product_id: 'qkxb0pmel0q1g9yf',
+            product_id: 'nr1k9ptidpovo0c5',
             token: 'release_common_component'
           }
         }
