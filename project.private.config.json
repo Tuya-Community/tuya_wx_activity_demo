@@ -1,0 +1,24 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/home_center/common_panel/index",
+          "pathName": "pages/home_center/common_panel/index",
+          "query": "device_id=3275085650029153cb08&device_name=智能单插联通版",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
