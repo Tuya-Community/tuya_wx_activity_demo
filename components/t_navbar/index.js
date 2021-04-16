@@ -12,14 +12,14 @@ Component({
    * 组件的初始数据
    */
   data: {
-    marginTop: '20px',
+    marginTop: '40rpx',
     height: 'auto',
   },
 
   lifetimes: {
     attached: function () {
       const { statusBarHeight, system } = wx.getSystemInfoSync();
-      const height = system.indexOf('iOS') > -1 ? '44px' : '48px'
+      const height = system.indexOf('iOS') > -1 ? '88rpx' : '96rpx'
       this.setData({ height, marginTop: `${statusBarHeight}px`})
     }
     

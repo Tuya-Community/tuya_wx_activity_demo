@@ -17,14 +17,14 @@
 }
 
 .dcImage {
-  width: 200px;
-  height: 200px;
-  margin-top: 150px;
+  width: 400rpx;
+  height: 400rpx;
+  margin-top: 300rpx;
 }
 
 .dcLabel {
-  margin-top: 25px;
-  font-size: 15px;
+  margin-top: 50rpx;
+  font-size: 30rpx;
   color: #61803d;
 }
 
@@ -35,7 +35,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 10px 0;
+  padding: 20rpx 0;
 }
 
 .f-view {
@@ -47,6 +47,6 @@
 }
 
 .fImage{
-    width: 40px;
-    height: 40px;
+    width: 80rpx;
+    height: 80rpx;
   }

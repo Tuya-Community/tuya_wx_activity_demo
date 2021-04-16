@@ -1,5 +1,4 @@
 <!--miniprogram/pages/home_center/common_panel/index.js.wxml-->
-<wxs src="./index.wxs" module="utils" />
 <import src="index.skeleton.wxml"/>
 <template is="skeleton" wx-if="{{loading}}" />
 

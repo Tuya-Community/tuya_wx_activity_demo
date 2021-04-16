@@ -45,7 +45,7 @@ component_1.VantComponent({
     },
     loadingSize: {
       type: String,
-      value: '20px',
+      value: '40rpx',
     },
     color: {
       type: String,

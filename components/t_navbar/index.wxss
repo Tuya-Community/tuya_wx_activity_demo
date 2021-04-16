@@ -12,7 +12,7 @@
 
 .custom-header-back {
   position: absolute;
-  left: 16px;
+  left: 32rpx;
 }
 
 .custom-header-name {

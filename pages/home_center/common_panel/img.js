@@ -15,4 +15,5 @@ module.exports =  {
   schedule,
   statistics,
   timer,
-  bgImage}
+  bgImage
+}
