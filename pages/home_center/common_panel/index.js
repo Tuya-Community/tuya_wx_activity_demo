@@ -30,8 +30,6 @@ Page({
   onLoad: function (options) {
     const { device_id } = options
     this.setData({ device_id })
-    this.progressiveLoad()
-
     // mqtt消息监听
     wxMqtt.on('message', (topic, newVal) => {
       const { status } = newVal
@@ -48,6 +46,9 @@ Page({
       getDeviceDetails(device_id),
       getDevFunctions(device_id),
     ]);
+    this.setData({
+      loading: false
+    })
 
     //自定义toast的调用
     this.toast = this.selectComponent("#toast");
@@ -90,7 +91,6 @@ Page({
           if (isExit.type === 'Boolean' && typeof value === 'string') {
             rightvalue = value === 'true'
           }
-
           rwDpList[code] = {
             code,
             value: rightvalue,
@@ -156,15 +156,6 @@ Page({
   //待开发功能
   turnNoticeOn: function () {
     this.toast.showToast('功能待开发~');
-  },
-
-  //延迟消失骨架屏
-  progressiveLoad: function () {
-    setTimeout(() => {
-      this.setData({
-        loading: false
-      })
-    }, 2000)
   }
 
 })

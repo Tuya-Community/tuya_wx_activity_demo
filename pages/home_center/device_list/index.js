@@ -34,7 +34,6 @@ Page({
       item.icon = `https://images.tuyacn.com/${item.icon}`
     })
     this.setData({ deviceList })
-    console.log('deviceList',deviceList)
   },
 
   /**
