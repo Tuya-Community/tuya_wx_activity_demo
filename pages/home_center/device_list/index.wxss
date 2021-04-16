@@ -19,7 +19,7 @@
 .base-list{
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .base-item {

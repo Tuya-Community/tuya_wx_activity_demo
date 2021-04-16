@@ -91,7 +91,7 @@
   "compileType": "miniprogram",
   "libVersion": "2.14.1",
   "appid": "wxa8f33e3d7eff940a",
-  "projectname": "2021_0412_test01",
+  "projectname": "tuya_wx_activity_demo",
   "debugOptions": {
     "hidedInDevtools": []
   },
